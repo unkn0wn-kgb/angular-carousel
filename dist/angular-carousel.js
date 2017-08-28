@@ -1,6 +1,6 @@
 /**
  * Angular Carousel - Mobile friendly touch carousel for AngularJS
- * @version v1.0.2 - 2016-11-25
+ * @version v1.1.1 - 2017-08-29
  * @link http://revolunet.github.com/angular-carousel
  * @author Julien Bouquillon <julien@revolunet.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -359,7 +359,6 @@ angular.module('angular-carousel').run(['$templateCache', function ($templateCac
 									videos.play();
 								} else {
 									videos.pause();
-									//videos.load();
 								}
 								scope.videoPlaying = true;
 							};
